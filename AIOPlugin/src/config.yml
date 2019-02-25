@@ -1,0 +1,9 @@
+firstJoin_message: '&a<player> se rodio!'
+
+join_message: "&7<player> se probudio iz kome!"
+
+disconnect_message: "&7<player> je pao u komu!"
+
+death_message: "&7<player> se onesvestio!"
+
+fall_message: "&7<player> je polomio nogu"

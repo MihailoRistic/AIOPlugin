@@ -1,0 +1,9 @@
+name: AIO
+version: 1.190216
+author: MFaith
+main: me.mfaith.aio.Main
+api-version: 1.13
+commands:
+    t:
+        description: Territorial commands
+        usage: /t
