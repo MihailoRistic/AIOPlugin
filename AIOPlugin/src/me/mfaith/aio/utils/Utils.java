@@ -10,12 +10,12 @@ public class Utils {
 		int i=s.indexOf("<{",0);
 		int x=0;
 		while (i!=-1 && x<args.length){
-			j=s.indexOf("}>",i);
+			int j=s.indexOf("}>",i);
 			s.replace(s.subSequence(i,j), args[x]);
 			x++;
 			i=s.indexOf("<{",i);
 		}
-		if (x=args.length){
+		if (x==args.length){
 			return ChatColor.translateAlternateColorCodes('&',s);
 		} else {
 			return (ChatColor.translateAlternateColorCodes('&',s) + "Invalid argument amount, inputed "+args.length+", needed x");
